@@ -10,7 +10,7 @@ modules for further information on the decoding process.
 
 
 ##Usage
-EIGERStream.py [-h] -i IP [-p PORT] [-v] [-f FILENAME]
+EIGERStreamReceiver.py [-h] -i IP [-p PORT] [-v] [-f FILENAME]
 
 Listen to stream interface and save data
 
