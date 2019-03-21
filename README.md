@@ -3,6 +3,7 @@ basic EIGER zmq stream receiver
 
 
 ##Description
+
 EIGERStreamReceiver.py listens to EIGER ZMQ messages and decodes the frames.
 The data can be either saved as raw, json format, tif, cbf, h5 or
 displayed in an ALBULA viewer window. Please see the corresponding file writer
@@ -10,6 +11,7 @@ modules for further information on the decoding process.
 
 
 ##Usage
+
 EIGERStreamReceiver.py [-h] -i IP [-p PORT] [-v] [-f FILENAME]
 
 Listen to stream interface and save data
