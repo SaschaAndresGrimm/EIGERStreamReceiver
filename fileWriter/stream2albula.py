@@ -116,5 +116,5 @@ class Stream2Albula(FileWriter):
         if len(frames)==5:
             self.metadata["appendix"] = frames[4].bytes
         self.metadata["real_time"] = json.loads(frames[3].bytes)["real_time"]
-        threading.Thread(target=self.displayImage,args=(data, header["series"], header["frame"])).start()
-        return data
+        self.displayImage(data, header["series"], header["frame"])
+        return
